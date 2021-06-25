@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home page of object detection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Long+Cang&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Long+Cang&family=Odibee+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="Home-style.css">
+</head>
+<body background="bg.png">
+    <center>
+        <h3 class = "btn btn-info heading col-lg-12 col-md-12 col-sm-12 col-x-12">
+            <p class="btn btn-success">The AI OBJECT DETECTION ON IMAGES</p> 
+            <br><br>
+            <center>
+        <div class ="col-lg-12 col-md-12 col-sm-12 col-x-12 text-success" style="border-radius:15px; background-color:white; box-shadow:5px 5px 5px grey; padding-bottom:10px;">         
+             <p>Goal :</p>             
+            <div class="btn btn-warning heading_div2 ">In this project you are going to understand how does AI tries to detect objects in you daily life by showing images. These images are just examples. If you want to know how accurate AI was then click on any of these examples</div>
+        </div> 
+        </center></h3>
+    </center>
+    
+<br><br><br><br><br><br><br><br><br><br><br><br>
+    <section id="pricing">
+
+		<div class="container">
+			
+			<!-- section title -->
+			<h2 class="section-title wow fadeIn" style="visibility: visible; animation-name: fadeIn;">Examples</h2>
+
+			<div class="spacer" data-height="60" style="height: 60px;"></div>
+			
+			<div class="row">
+				
+				<!-- price item -->
+				<div id="computer" class="col-md-4 pr-md-0 mt-md-4 mt-0">
+					<div class="price-item bg-white rounded shadow-dark text-center">
+						<img class="img-rounded" src="computer setup.jpg" style="width:250px; height:250px;"  alt="Regular">
+						<h2 class="plan">Computer Setup</h2>
+						<p>This example has a computer setup which AI tries to identify </p>
+						<button  style="border-radius: 15px;" class="btn btn-warning" onclick="Computer();">Click here to go</button>
+						
+					</div>
+				</div>
+				<!-- end price item -->
+
+				<!-- price item -->
+				<div id="sports" class="col-md-4 pr-md-0 mt-md-4 mt-0">
+					<div class="price-item bg-white rounded shadow-dark text-center">
+						<img class="img-rounded" src="sports.jpg" style="width:250px; height:250px;"  alt="Regular">
+						<h2 class="plan">Sports</h2>
+						<p>This example has a lot of sports items which the Ai needs to identify</p>
+						<button style="border-radius: 15px;" class="btn btn-primary" onclick="Sports();">Click here to go</button>
+						
+					</div>
+				</div>
+				<!-- end price item -->
+
+				<!-- price item -->
+				<div id="LaptopSetup" class="col-md-4 pr-md-0 mt-md-4 mt-0">
+					<div class="price-item bg-white rounded shadow-dark text-center">
+						<img class="img-rounded" src="My laptop and bag.jpg" style="width:250px; height:250px;"  alt="Regular">
+						<h2 class="plan">Laptop setup</h2>
+						<p>This example has my laptop, my school bag, book, pad and pen which Ai needs to detect</p>
+						<button  style="border-radius: 15px;" class="btn btn-info" onclick="Laptop();">Click here to go</button>
+						
+					</div>
+				</div>
+				<!-- end price item -->
+				
+
+				<!-- price item -->
+                <center>
+				<div class="col-md-4 pr-md-0 mt-md-4 mt-0">
+					<div class="price-item bg-white rounded shadow-dark text-center">
+						<img class="img-rounded" src="My stuff.jpg" style="width:250px; height:250px;"  alt="Regular">
+						<h2 class="plan">My Stuff</h2>
+						<p>This example has some of my belongings and things which I like the most that AI will detect</p>
+						<button  style="border-radius: 15px;" class="btn btn-success" onclick="myStuff();">Click here to go</button>
+						
+					</div>
+				</div>
+            </center>
+				<!-- end price item -->
+     
+			</div>
+
+		</div>
+
+	</section>
+<script src="HomePage.js"></script>    
+</body>
+</html>

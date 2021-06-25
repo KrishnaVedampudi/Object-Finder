@@ -1,0 +1,37 @@
+
+
+
+body
+{
+    background-size:cover;
+    background-position:center;    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+canvas
+{
+    border-radius:15px;
+    box-shadow:5px 5px 5px grey;
+    margin-top:225px;
+}
+
+.heading
+{
+font-size: 40px;
+background-color:cyan;
+width: 100%;
+margin: 0px;
+
+
+}
+
+#status , #noo
+{
+   font-size: 18px;
+}
+
+canvas
+{    
+    border-radius:15px;
+    box-shadow:5px 5px 5px grey;
+}
